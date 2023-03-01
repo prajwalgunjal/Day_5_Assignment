@@ -1,7 +1,5 @@
 package bridgelabz.com.BasicCoreProgram.FunctionalProgram;
-
 import java.util.Scanner;
-
 public class Distance {
     public static void main(String[] args) {
         int x,y;
