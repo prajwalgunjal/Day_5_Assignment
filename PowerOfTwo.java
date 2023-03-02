@@ -5,10 +5,11 @@ public class PowerOfTwo {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number till that you want to print the table of 2");
         int power = sc.nextInt();
-        for(int i=0 ;i<=power;i++)
-        {
-            int ans=2*i;
-            System.out.println("2^"+i+ "=" +ans);
+        if(power<=37) {
+            for (int i = 0; i <= power; i++) {
+                int ans = 2 * i;
+                System.out.println("2^" + i + "=" + ans);
+            }
         }
     }
 }
